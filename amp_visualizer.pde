@@ -8,8 +8,8 @@ float x;
 float how_wiggly;
 
 void setup() {
-  size(640, 360);
-  //fullScreen();
+  //size(640, 360);
+  fullScreen();
   colorMode(HSB);
   noStroke();
   background(0,0,100);
